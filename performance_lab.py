@@ -139,7 +139,7 @@ Time and Space Analysis for problem 4:
 def running_total(nums):
 
     # Optimized Verison of Problem 5
-    # Instead of creating a new list we update the original list in place.
+    # Instead of creating a new list I update the original list in place.
     # This reduces extra memory usage.
 
     for i in range(1, len(nums)):
